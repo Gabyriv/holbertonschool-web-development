@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Smile School</title>
 </head>
 
@@ -12,41 +12,41 @@
     <!-- Header section with logo and navigation -->
     <header>
         <!-- Logo link with image -->
-        <img class="logo" src="photos/logo.png" alt="logo" />
+        <a href="#"><img class="logo" src="photos/logo.png" alt="logo" /></a>
         <!-- Navigation block with 3 link elements -->
-        <nav>
-            <ul>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Login</a></li>
-            </ul>
-        </nav>
+        <div class="menu">
+            <a class="courses" href="#">Courses</a>
+            <a class="pricing" href="#">Pricing</a>
+            <a class="login" href="#">Login</a>
+        </div>
     </header>
 
     <main>
         <!-- Banner section -->
-        <section>
+        <section class="banner">
             <!-- First block: Main heading, text and CTA button -->
             <div>
-                <h1>
+                <h1 class="get_schooled">
                     Get schooled
                 </h1>
-                <p>
-                    SMILES
-                </p>
-                <button>
+                <div>
+                    <span class="SMILES">SMILES</span>
+                    <span class="GRIN">GRIN</span>
+                    <span class="LAUGH">LAUGH</span>
+                </div>
+                <button class="register">
                     REGISTER FOR FREE
                 </button>
             </div>
             <!-- Second block: "Learn from the pros" section -->
             <div>
-                <h2>
+                <h2 class="Learn_from_the_pros">
                     Learn from the pros
                 </h2>
                 <!-- Block containing 4 profile blocks -->
-                <div>
+                <div class="profile_cards">
                     <!-- Profile block 1 -->
-                    <div>
+                    <div class="profile">
                         <img src="photos/phillip_massey.png" alt="Phillip Massey">
                         <h3>Phillip Massay</h3>
                         <p>
@@ -55,7 +55,7 @@
                         </p>
                     </div>
                     <!-- Profile block 2 -->
-                    <div>
+                    <div class="profile">
                         <img src="photos/nannie_lawrence.png" alt="Nannie Lawrence">
                         <h3>Nannie Lawrence</h3>
                         <p>
@@ -64,7 +64,7 @@
                         </p>
                     </div>
                     <!-- Profile block 3 -->
-                    <div>
+                    <div class="profile">
                         <img src="photos/bruce_walters.png" alt="Bruce Walters">
                         <h3>Bruce Walters</h3>
                         <p>
@@ -73,7 +73,7 @@
                         </p>
                     </div>
                     <!-- Profile block 4 -->
-                    <div>
+                    <div class="profile">
                         <img src="photos/henry_hughes.png" alt="Henry Hughes">
                         <h3>Henry Hughes</h3>
                         <p>
@@ -86,7 +86,7 @@
         </section>
 
         <!-- Quote section -->
-        <section>
+        <section class="quote">
             <div>
                 <!-- Quote block with image and content -->
                 <img src="photos/person_name.png" alt="person name">
@@ -104,7 +104,7 @@
         </section>
 
         <!-- Most popular tutorials section -->
-        <section>
+        <section class="videos">
             <h1>
                 Most popular tutorials
             </h1>
@@ -222,7 +222,7 @@
         </section>
 
         <!-- Membership section -->
-        <section>
+        <section class="membership">
             <h1>
                 Free membership
             </h1>
@@ -277,7 +277,7 @@
         </section>
 
         <!-- FAQ section -->
-        <section>
+        <section class="faq">
             <h1>
                 F.A.Q.
             </h1>
@@ -349,7 +349,7 @@
     </main>
 
     <!-- Footer section -->
-     <footer>
+    <footer>
         <!-- This block will be used for centering the footer content -->
         <div>
             <!-- Logo and social media links -->
@@ -365,7 +365,7 @@
                 </p>
             </div>
         </div>
-     </footer>
+    </footer>
 </body>
 
 </html>
