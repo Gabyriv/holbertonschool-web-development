@@ -58,4 +58,4 @@ The final result is a professionally designed, responsive "Smile School" website
 
 ## Author
 
-- [Gabriel Rivera](https://github.com/Gabyriv07)
+- [Gabriel Rivera](https://github.com/Gabyriv)
