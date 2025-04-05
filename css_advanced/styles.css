@@ -184,3 +184,69 @@ header {
     color: var(--white);
     margin: 5px 0;
 }
+
+/* Quote Section */
+.quote {
+    position: relative;
+    width: 100%;
+    height: 392px;
+    background: var(--light-purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote > div {
+    display: flex;
+    width: 943px;
+    height: 160px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.quote img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: var(--white);
+    object-fit: cover;
+    margin-right: 50px;
+    flex-shrink: 0;
+}
+
+.quote blockquote {
+    font-family: var(--Sans-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+.quote blockquote p {
+    font-family: var(--Sans-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: var(--white);
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.quote > div > div > p {
+    font-family: var(--Sans-font);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: var(--white);
+    margin: 0;
+}
+
+.quote > div > div {
+    display: flex;
+    flex-direction: column;
+}
