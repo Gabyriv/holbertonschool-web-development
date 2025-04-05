@@ -11,41 +11,41 @@
     <!-- Header section with logo and navigation -->
     <header>
         <!-- Logo link with image -->
-        <img class="logo" src="photos/logo.png" alt="logo" />
+        <a href="#"><img class="logo" src="photos/logo.png" alt="logo" /></a>
         <!-- Navigation block with 3 link elements -->
-        <nav>
-            <ul>
-                <li><a href="#">Courses</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Login</a></li>
-            </ul>
-        </nav>
+        <div class="menu">
+            <a class="courses" href="#">Courses</a>
+            <a class="pricing" href="#">Pricing</a>
+            <a class="login" href="#">Login</a>
+        </div>
     </header>
 
     <main>
         <!-- Banner section -->
-        <section>
+        <section class="banner">
             <!-- First block: Main heading, text and CTA button -->
             <div>
-                <h1>
+                <h1 class="get_schooled">
                     Get schooled
                 </h1>
-                <p>
-                    SMILES
-                </p>
-                <button>
+                <div>
+                    <span class="SMILES">SMILES</span>
+                    <span class="GRIN">GRIN</span>
+                    <span class="LAUGH">LAUGH</span>
+                </div>
+                <button class="register">
                     REGISTER FOR FREE
                 </button>
             </div>
             <!-- Second block: "Learn from the pros" section -->
             <div>
-                <h2>
+                <h2 class="Learn_from_the_pros">
                     Learn from the pros
                 </h2>
                 <!-- Block containing 4 profile blocks -->
-                <div>
+                <div class="profile_cards">
                     <!-- Profile block 1 -->
-                    <div>
+                    <div class="profile">
                         <img src="photos/phillip_massey.png" alt="Phillip Massey">
                         <h3>Phillip Massay</h3>
                         <p>
@@ -54,7 +54,7 @@
                         </p>
                     </div>
                     <!-- Profile block 2 -->
-                    <div>
+                    <div class="profile">
                         <img src="photos/nannie_lawrence.png" alt="Nannie Lawrence">
                         <h3>Nannie Lawrence</h3>
                         <p>
@@ -63,7 +63,7 @@
                         </p>
                     </div>
                     <!-- Profile block 3 -->
-                    <div>
+                    <div class="profile">
                         <img src="photos/bruce_walters.png" alt="Bruce Walters">
                         <h3>Bruce Walters</h3>
                         <p>
@@ -72,7 +72,7 @@
                         </p>
                     </div>
                     <!-- Profile block 4 -->
-                    <div>
+                    <div class="profile">
                         <img src="photos/henry_hughes.png" alt="Henry Hughes">
                         <h3>Henry Hughes</h3>
                         <p>
@@ -85,17 +85,15 @@
         </section>
 
         <!-- Quote section -->
-        <section>
+        <section class="quote">
             <div>
                 <!-- Quote block with image and content -->
                 <img src="photos/person_name.png" alt="person name">
                 <div>
                     <!-- Blockquote with author and title -->
                     <blockquote>
-                        << Those tutorials are concise and go straight to the point. I can't think of a better place to
-                            learn smiling. Ang it's so fun! <p>
-                            Person Name
-                            </p>
+                        « Those tutorials are concise and go straight to the point. I can't think of a better place to learn smiling. And it's so fun!
+                        <p>Person Name</p>
                     </blockquote>
                     <p>weather presenter</p>
                 </div>
@@ -103,9 +101,9 @@
         </section>
 
         <!-- Most popular tutorials section -->
-        <section>
+        <section class="videos">
             <h1>
-                Most popular tutorials
+                Most <span>popular</span> tutorials
             </h1>
             <!-- Container for all tutorial cards -->
             <div>
@@ -127,11 +125,13 @@
                     <!-- Rating block with stars -->
                     <div>
                         <div>
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/empty_star.png" alt="Star">
+                            <div>
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/empty_star.png" alt="Star">
+                            </div>
                             <p>8 min</p>
                         </div>
                     </div>
@@ -154,11 +154,13 @@
                     <!-- Rating block with stars -->
                     <div>
                         <div>
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/empty_star.png" alt="Star">
+                            <div>
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/empty_star.png" alt="Star">
+                            </div>
                             <p>8 min</p>
                         </div>
                     </div>
@@ -181,11 +183,13 @@
                     <!-- Rating block with stars -->
                     <div>
                         <div>
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/empty_star.png" alt="Star">
+                            <div>
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/empty_star.png" alt="Star">
+                            </div>
                             <p>8 min</p>
                         </div>
                     </div>
@@ -208,11 +212,13 @@
                     <!-- Rating block with stars -->
                     <div>
                         <div>
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/full_star.png" alt="Star">
-                            <img src="photos/empty_star.png" alt="Star">
+                            <div>
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/full_star.png" alt="Star">
+                                <img src="photos/empty_star.png" alt="Star">
+                            </div>
                             <p>8 min</p>
                         </div>
                     </div>
@@ -221,52 +227,55 @@
         </section>
 
         <!-- Membership section -->
-        <section>
+        <section class="membership">
             <h1>
-                Free membership
+                <span>Free</span> membership
             </h1>
-            <!-- First information block -->
-            <div>
-                <img src="photos/smile.png" alt="Smile">
-                <h2>
-                    Lorem ipsum
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur asipiscing elit.
-                </p>
-            </div>
+            <!-- Container for all items -->
+            <div class="item-container">
+                <!-- First information block -->
+                <div>
+                    <img src="photos/smile.png" alt="Smile">
+                    <h2>
+                        Lorem ipsum
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur asipiscing elit.
+                    </p>
+                </div>
 
-            <!-- Second information block -->
-            <div>
-                <img src="photos/smile.png" alt="Smile">
-                <h2>
-                    Lorem ipsum
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur asipiscing elit.
-                </p>
-            </div>
+                <!-- Second information block -->
+                <div>
+                    <img src="photos/smile.png" alt="Smile">
+                    <h2>
+                        Lorem ipsum
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur asipiscing elit.
+                    </p>
+                </div>
 
-            <!-- Third information block -->
-            <div>
-                <img src="photos/smile.png" alt="Smile">
-                <h2>
-                    Lorem ipsum
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur asipiscing elit.
-                </p>
-            </div>
+                <!-- Third information block -->
+                <div>
+                    <img src="photos/smile.png" alt="Smile">
+                    <h2>
+                        Lorem ipsum
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur asipiscing elit.
+                    </p>
+                </div>
 
-            <!-- Fourth information block -->
-            <div>
-                <img src="photos/smile.png" alt="Smile">
-                <h2>
-                    Lorem ipsum
-                </h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur asipiscing elit.
-                </p>
+                <!-- Fourth information block -->
+                <div>
+                    <img src="photos/smile.png" alt="Smile">
+                    <h2>
+                        Lorem ipsum
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur asipiscing elit.
+                    </p>
+                </div>
             </div>
 
             <!-- Register button -->
@@ -276,7 +285,7 @@
         </section>
 
         <!-- FAQ section -->
-        <section>
+        <section class="faq">
             <h1>
                 F.A.Q.
             </h1>
@@ -348,23 +357,26 @@
     </main>
 
     <!-- Footer section -->
-     <footer>
-        <!-- This block will be used for centering the footer content -->
-        <div>
-            <!-- Logo and social media links -->
-            <div>
+    <footer>
+        <div class="footer-container">
+            <!-- Logo with text -->
+            <div class="footer-logo">
                 <img src="photos/logo.png" alt="logo">
-                <div>
-                    <img src="photos/facebook.png" alt="facebook" href="#">
-                    <img src="photos/twitter.png" alt="twitter" href="#">
-                    <img src="photos/instagram.png" alt="instagram" href="#">
-                </div>
-                <p>
-                    @smileschool 2020
-                </p>
+            </div>
+
+            <!-- Social media links -->
+            <div class="social-links">
+                <a href="#"><img src="photos/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="photos/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="photos/instagram.png" alt="instagram"></a>
             </div>
         </div>
-     </footer>
+        
+        <!-- Copyright -->
+        <p class="copyright">
+            ©smileschool 2020
+        </p>
+    </footer>
 </body>
 
 </html>
