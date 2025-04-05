@@ -59,4 +59,4 @@ Note: This is only the HTML structure - no styles have been applied yet. The vis
 
 ## Author
 
-- [Gabriel Rivera](https://github.com/Gabyriv07)
+- [Gabriel Rivera](https://github.com/Gabyriv)
